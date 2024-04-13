@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="styleanan.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="c3-eb4b9be8.css" rel="stylesheet" type="text/css" />
+    <script src="d3-5.8.2.min-c5268e33.js"></script>
+    <script src="c3.min-d2a1f852.js"></script>
+    <script src="helper.js"></script>
+    <script src="script.js"></script>
+   </head>
+   
+  <body onload="initanan()">
+		<nav class="container">
+	  	<a href="index.html" class="link">Home</a>
+			<a href="info.html" class="link">Info</a>
+	    <a href="analysis.html" class="link">Analysis</a>
+		</nav>
+    <div class="card">
+      <p><span class="highlight1">ANANLYASIS: </span>Chart analyzes the number of Squirrels by Fur color</p>
+      <select id="chartType" style="width:200px;">
+        <option>Select Chart Type</option>
+        <option value="bar">Bar</option>
+        <option value="pie">Pie</option>
+      </select>
+      <a class="button" onclick="ByColorr()"> Display </a>
+    </div>
+    <div class="card" id="output"></div> 
+		
+		<div class="center2" id="pic2">
+	    <img src="Gallery/detective.png" style="padding:5px" > 
+	    <img src="Gallery/seenmesquirrel.jpg" style="padding:5px" >
+	   	<img src="Gallery/Sight.png" style="padding:5px" >
+		</div>
+  </body>
+</html>

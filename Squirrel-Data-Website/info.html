@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Info</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body onload="init()">
+
+		<nav class="container">
+  	<a href="index.html" class="link">Home</a>
+		<a href="info.html" class="link">Info</a>
+    <a href="analysis.html" class="link">Analysis</a>
+  </nav>
+
+		<div class="container">
+      <div id="leftPanel">
+        <div class="card">
+          <h3>By Time Seen</h3>
+          <p>Enter either ¨AM¨ or ¨PM¨ to see what types of squirrels were there at that time.</p>
+          <input type="text" id="shift" placeholder="Enter Time">
+          <hr></hr>
+          <a class="button" onclick="filterByShift()"> Search </a>
+        </div>
+        <div class="card">
+          <h3>By Age</h3>
+          <p>Enter either ¨Juvenile¨ or ¨Adult¨ to see what types of squirrels were there at that age.</p>
+          <input type="text" id="age" placeholder="Enter Age">
+          <hr></hr>
+          <a class="button" onclick="filterByAge()"> Search </a>
+        </div>
+				
+        <div class="card">
+          <h3>By Fur Color</h3>
+          <p>Filter and see all the squirrels based on thier Primary Fur Color.</p>
+          <select id="color">
+          </select>
+          <hr></hr>
+          <a class="button" onclick="filterByFurColor()"> Search </a>
+        </div>
+      </div>
+      
+      <div class="card" id="rightPanel">
+        <h1>Output</h1>
+        <div id="result"></div>
+        <div id="output"></div>
+      </div>
+    </div>
+
+  </body>
+</html>

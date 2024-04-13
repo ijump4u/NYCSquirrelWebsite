@@ -1,0 +1,145 @@
+/* INT START */
+#introtxt{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.container{
+	display: flex;
+}
+.container *{
+  flex:1;
+}
+nav{
+  background-color:#f1540e;
+  box-shadow:2px 2px 2px grey;
+	text-align: center;
+}
+.center1 {
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Comic Sans MS";
+	outline-style: solid;
+  border: 9px solid black;
+}
+a{
+  color:white;
+  padding:10px;
+
+}
+nav a:hover{
+  background-color:sandybrown;
+  color:black;
+	transition: 1s;
+}
+#footer{
+  background-color:f1540e;
+  color:white;
+  font-size:8pt;
+}
+/* INT END */
+
+.container {
+  position: relative;
+  text-align: auto;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#htxtfont{
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+body{
+	background-color: #a74205;
+	color: black;
+	font: "Times New Roman";
+}
+#pic2 img{
+  margin: 5px;
+  border: 1px solid orange;
+  float: left;
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  padding: 100px;
+  position: relative;
+}
+.vid{
+  box-shadow:4px 4px 4px 4px greenyellow;
+}
+.vid2{
+  box-shadow:4px 4px 4px 4px yellow;
+}
+.vid3{
+  box-shadow:2px 2px 2px 2px yellow;
+}
+#c{
+	background-color: black;
+}
+.link{
+	color: lightblue;
+	text-decoration: none;
+}
+
+/* INFO */
+.card{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  text-align:center;
+  box-shadow:2px 2px 2px black;
+  border-radius:2px;
+}
+.button{
+  text-decoration:none;
+  background-color:rgb(94, 40, 5);
+  color:white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+}
+.button:hover{
+  background-color:rgb(119, 59, 3);
+}
+#leftPanel{
+  flex:1;
+}
+#rightPanel{
+  flex:2;
+}
+.fitted{
+  max-width:200px;
+  min-width:200px;
+  background-color:sandybrown;
+}
+.card img{
+  height:100px;
+}
+#output{
+  display:flex;
+  flex-wrap:wrap;
+}
+#result{
+  background-color:#f1540e;
+}
+
+/* Analysis Decorating */
+
+.center2 img{
+  margin: 8px;
+  border: 1px solid orange;
+  float: left;
+  width: 600px;
+  height:  800px;
+  border-radius: 25px;
+  padding-left: 200px;
+}
+
